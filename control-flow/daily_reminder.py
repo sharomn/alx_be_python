@@ -20,6 +20,6 @@ if time_bound == "yes":
 else:
     message += ". Consider completing it when you have free time."
 
-print("\nReminder:", message)
+print(f"reminder: {message}")
 
 # This is a checker sync comment
