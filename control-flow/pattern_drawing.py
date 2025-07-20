@@ -10,4 +10,4 @@ while row < size:
     for col in range(size):
         print("*", end="")  # Print stars side by side
     print()  # Move to next line after each row
-    row += 1  # Move to the next row
+    row += 1  # Move to the next row6
