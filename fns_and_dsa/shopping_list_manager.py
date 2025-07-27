@@ -11,6 +11,7 @@ def display_menu():
 def main():
     global shopping_list 
     while True:
+        print(f"--- Shopping list manager ---")
        display_menu()
        choice = input("Enter your choice (1-4): ").strip()
 
