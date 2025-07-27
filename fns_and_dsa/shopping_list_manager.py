@@ -2,7 +2,7 @@
 shopping_list = []
 
 def display_menu():
-    print(f"--- Shopping List Manager ---")
+    print("Shopping List Manager")
     print("1. Add item")
     print("2. Remove item")
     print("3. View list")
@@ -12,8 +12,7 @@ def main():
     while True:
         display_menu()
         choice = input("Enter your choice: ")
-
-        if choice == '1':
+       if choice == '1':
             item = input("Enter the item to add: ").strip()
             shopping_list.append(item)
             print(f"'{item}' has been added to your shopping list.")
@@ -37,6 +36,6 @@ def main():
         else:
             print("Invalid choice. Please try again.")
     if __name__ == "__main__":
-    main()
+        main()
     
 
