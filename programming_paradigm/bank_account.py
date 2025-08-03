@@ -13,7 +13,7 @@ class BankAccount:
         return False
 
     def display_balance(self):
-        print(f"Current Balance: ${self.__balance}")
+        print(f"Current Balance: ${self.__balance:.2f}")
 
 import sys
 from bank_account import BankAccount
